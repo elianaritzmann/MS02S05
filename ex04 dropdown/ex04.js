@@ -6,7 +6,6 @@ dropdownBtn.addEventListener('click', () => {
     dropdownContent.style.display === 'block' ? 'none' : 'block';
 });
 
-// Fecha o dropdown se clicar fora
 window.addEventListener('click', function(e) {
   if (!e.target.matches('.dropdown-btn')) {
     dropdownContent.style.display = 'none';
